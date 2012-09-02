@@ -1,4 +1,22 @@
 Avosoft
 =======
 
-Gestion de cabinet d'avocat
+Gestion de cabinet d'avocat.
+
+
+## Description
+
+Logiciel de Gestion de cabinets d'avocats
+
+
+Cette application est développé avec le framework [Hoa][http://hoa-project.net/]
+
+
+
+* Version: Avosoft 0.1
+
+##Development Team
+
+* Gérard Ernaelsten (MaitrePylos) - Lead Developer ([http://formatux.be](http://formatux))
+
+

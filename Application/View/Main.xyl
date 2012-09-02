@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xyl-stylesheet href="hoa://Application/Public/Css/style.css"?>
+
+
+<document xmlns="http://hoa-project.net/xyl/xylophone">
+
+    <title>Gesta For Hoa</title>
+
+    <div id="header">
+        <h1>Ateliers de Pontaury</h1>
+        lhjljklmkjmlkjmlkjmlkjqsmdf
+        <!--<ul>-->
+            <!--<?php if($current_user): ?>-->
+            <!--<li><?php echo Auth::instance()->get_screen_name() ?> |</li>-->
+            <!--<li><?php echo Html::anchor('users/logout', 'Quitter') ?> |</li>-->
+            <!--<?php else: ?>-->
+            <!--<li><?php echo Html::anchor('users/login', 'Connexion') ?> |</li>-->
+            <!--<?php endif; ?>-->
+
+        <!--</ul>-->
+        <p class="date" bind="?date"> Nous sommes le <value bind="?jour" />  </p>
+    </div>
+
+    <div id="menu">
+        <!--<ul>-->
+            <!--<li><?php echo Html::anchor('/', 'Accueil', array('id' => 'link_home')) ?></li>-->
+            <!--<li><?php echo Html::anchor('participant', 'Participant', array('id' => 'link_participant')) ?></li>-->
+            <!--<li><?php echo Html::anchor('contrat','Contrat',array('id'=>'link_contrat'))?></li>-->
+            <!--<li><?php echo Html::anchor('prestation','Prestation',array('id'=>'link_heures'))?></li>-->
+            <!--<li><?php echo Html::anchor('administration','Admin',array('id'=>'link_admin'))?></li>-->
+            <!--<li><?php echo Html::anchor('tableau','Tableau',array('id'=>'link_tableau'))?></li>-->
+        <!--</ul>-->
+    </div>
+
+    <div id="content">
+
+        <article id="main"/>
+
+    </div>
+
+
+
+    <div id='footer'>
+        <p>
+            <a href="">Gesta v3.0</a>
+            &#169; Ateliers de Pontaury
+        </p>
+    </div>
+</document>
