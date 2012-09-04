@@ -9,7 +9,7 @@ Gestion de cabinet d'avocat.
 Logiciel de Gestion de cabinets d'avocats
 
 
-Cette application est développé avec le framework [Hoa][http://hoa-project.net/]
+Cette application est développé avec les librairies [Hoa][http://hoa-project.net/]/Silex/Twig
 
 
 
@@ -17,6 +17,6 @@ Cette application est développé avec le framework [Hoa][http://hoa-project.net
 
 ##Development Team
 
-* Gérard Ernaelsten (MaitrePylos) - Lead Developer ([http://formatux.be](http://formatux))
+* Gérard Ernaelsten (MaitrePylos) - Lead Developer ([http://formatux.be](http://formatux.be))
 
 
