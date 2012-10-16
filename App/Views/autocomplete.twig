@@ -1,0 +1,42 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+    <script type="text/javascript">
+        $(function () {
+            var projects = [
+                {% for clients in client %}
+
+
+                {
+                    value: '{{ clients.idClient }}',
+                    label: '{{ clients.tNom }} {{ clients.tPrenom }}'
+                },
+                {% endfor %}
+            ];
+
+            $('#client_autocomplete').autocomplete({
+                minLength:0,
+                source:projects,
+                select:function (event, ui) {
+                    $('#client_autocomplete').val(ui.item.label);
+                    $('#client_idclient').val(ui.item.value);
+                    return false;
+                }
+            })
+
+        });
+    </script>
+
+    <form action="{{path("client.clientAutocomplete",{chemin:route})}}" method="post">
+        <legend>Modifier Client</legend>
+        {{form_widget(form)}}
+
+        <input class="btn btn-success btn-small"  type="submit" name="submit">
+    </form>
+
+
+
+
+
+{% endblock %}

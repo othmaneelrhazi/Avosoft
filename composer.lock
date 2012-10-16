@@ -1,5 +1,5 @@
 {
-    "hash": "5d70ec5bfe61482719bcdaec0b3dbd70",
+    "hash": "8367fcde745afafb5fcbcaa6f1340ca2",
     "packages": [
         {
             "package": "doctrine/common",
@@ -74,6 +74,12 @@
             "commit-date": "1342739894"
         },
         {
+            "package": "symfony/form",
+            "version": "2.1.x-dev",
+            "source-reference": "39eb3e766230c0549e534a3c4940107b650c0e28",
+            "commit-date": "1348599211"
+        },
+        {
             "package": "symfony/http-foundation",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
@@ -98,6 +104,18 @@
             "commit-date": "1344074675"
         },
         {
+            "package": "symfony/locale",
+            "version": "2.1.x-dev",
+            "source-reference": "cf81735de00ea35258f2ceb22cf3bfa95456d530",
+            "commit-date": "1348748723"
+        },
+        {
+            "package": "symfony/options-resolver",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
             "package": "symfony/routing",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
@@ -108,6 +126,30 @@
             "version": "dev-master",
             "source-reference": "v2.1.0-RC1",
             "commit-date": "1343744077"
+        },
+        {
+            "package": "symfony/security",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1347274422"
+        },
+        {
+            "package": "symfony/translation",
+            "version": "2.1.x-dev",
+            "source-reference": "4fea82d0765c03026c174231c220b50e251fc322",
+            "commit-date": "1348842738"
+        },
+        {
+            "package": "symfony/twig-bridge",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1347274422"
+        },
+        {
+            "package": "symfony/validator",
+            "version": "2.1.x-dev",
+            "source-reference": "4e24059efc3ae05c9f34aa123667b3734e5cd3cc",
+            "commit-date": "1348748075"
         },
         {
             "package": "symfony/yaml",

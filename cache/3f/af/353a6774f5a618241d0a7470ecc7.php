@@ -1,7 +1,7 @@
 <?php
 
-/* index/index.twig */
-class __TwigTemplate_8a73b836bb5f4c9ec2e90e2893fb56df extends Twig_Template
+/* client/modifier.twig */
+class __TwigTemplate_3faf353a6774f5a618241d0a7470ecc7 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -24,19 +24,32 @@ class __TwigTemplate_8a73b836bb5f4c9ec2e90e2893fb56df extends Twig_Template
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 4
     public function block_content($context, array $blocks = array())
     {
-        // line 4
-        echo "<p>
-  Hello World
-</p>
+        // line 5
+        echo "
+    </ul>
+
+    <form action=\"";
+        // line 8
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("client.client"), "html", null, true);
+        echo "\" method=\"post\">
+        <legend>Modifier Client</legend>
+        ";
+        // line 10
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getContext($context, "form"), 'widget');
+        echo "
+
+        <input class=\"btn btn-success btn-small\"  type=\"submit\" name=\"submit\">
+    </form>
+
 ";
     }
 
     public function getTemplateName()
     {
-        return "index/index.twig";
+        return "client/modifier.twig";
     }
 
     public function isTraitable()
@@ -46,6 +59,6 @@ class __TwigTemplate_8a73b836bb5f4c9ec2e90e2893fb56df extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  29 => 4,  26 => 3,);
+        return array (  39 => 10,  34 => 8,  29 => 5,  26 => 4,);
     }
 }

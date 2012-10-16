@@ -2,93 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f59f18e-cb63-43f0-8315-613320be2b90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.phar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Controller/IndexController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/index/about.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/index/index.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/layout.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/avosoft.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Controller/Blog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Controller/Error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Controller/Main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Public/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Public/Css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Public/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/View/Main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/View/Main.xyl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/View/Main/Index.xyl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Bin/Command/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Bin/Hoa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Bin/WhereisHoa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Bin/myapp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Bin/myapp.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Bin/whereishoa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Bin/whereishoa.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Core.link.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaConsole.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaCoreCore.gg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaCoreCore.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaDatabaseDal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaMime.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaRouterHttp.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaTestSampler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/.Cache/HoaXyl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaCache.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaConsole.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaCoreCore.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaDatabaseDal.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaDispatcher.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaMime.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaRouterHttp.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaTest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaTestSampler.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Configuration/HoaXyl.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Etc/Locale/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Library/Hoathis/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Library/Hoathis/Controller/Generic.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Library/Hoathis/Kit/Response.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Library/Hoathis/KitAggreagate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Lost+found/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Share/Dtrace/Execution.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Share/Dtrace/Stat.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Temporary/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Temporary/Foo.xyl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Variable/Cache/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Variable/Database/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Variable/Log/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Variable/Private/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Variable/Run/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Variable/Test/Dictionary/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Variable/Test/Repository/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Controller/ClientController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Controller/DossierController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Controller/PrestationController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Controller/UserProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Form/Adresse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Form/Autocomplete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Form/AutocompleteDossier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Form/Client.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Form/Dossier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Form/DossierBis.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Form/Generic/Autocomplete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Form/NewClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Maitrepylos/Debug.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Maitrepylos/Provider/DebugServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/BaseModels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/ClientModels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/DossierModels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/IndexModels.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/autocomplete.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/client/adresse.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/client/ajouter.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/client/autocomplete.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/client/modifier.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/dossier/ajouter.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/dossier/choisir.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/dossier/remplacer.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/prestation/ajouter.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/jquery-ui-1.8.2.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/jquery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-1.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-ui-1.8.17.custom.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/8a/73/b836bb5f4c9ec2e90e2893fb56df.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/8f/c6/62e8631fea92c1225f907de9046a.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/public/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/public/bootstrap/img/glyphicons-halflings.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Avosoft.iml" afterPath="$PROJECT_DIR$/.idea/Avosoft.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/gg.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/gg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controller/IndexController.php" afterPath="$PROJECT_DIR$/App/Controller/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/about.twig" afterPath="$PROJECT_DIR$/App/Views/index/about.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/index/index.twig" afterPath="$PROJECT_DIR$/App/Views/index/index.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/layout.twig" afterPath="$PROJECT_DIR$/App/Views/layout.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/bootstrap.php" afterPath="$PROJECT_DIR$/App/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avosoft.sql" afterPath="$PROJECT_DIR$/avosoft.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/08/ed/34ba666404269554e6e4c7ae3121.php" afterPath="$PROJECT_DIR$/cache/08/ed/34ba666404269554e6e4c7ae3121.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/b6/db/54cf4fb00ba461d9132bacae7961.php" afterPath="$PROJECT_DIR$/cache/b6/db/54cf4fb00ba461d9132bacae7961.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/f4/df/3519d0f2efef5c8175797bde42d3.php" afterPath="$PROJECT_DIR$/cache/f4/df/3519d0f2efef5c8175797bde42d3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/avosoft.log" afterPath="$PROJECT_DIR$/log/avosoft.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-alert.js" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-dropdown.js" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-modal.js" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-scrollspy.js" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-tab.js" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-transition.js" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap-transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/default.css" afterPath="$PROJECT_DIR$/public/css/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <ignored path="Avosoft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,90 +86,102 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Avosoft" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ClientController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controller/ClientController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="92" selection-start="1191" selection-end="1329" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DossierController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Controller/DossierController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="0" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.16820988">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DossierModels.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/DossierModels.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="68" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientModels.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Models/ClientModels.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="68" selection-start="2744" selection-end="2800" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dossier.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Form/Dossier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="41" selection-start="596" selection-end="621" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DossierBis.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Form/DossierBis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="1" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutocompleteDossier.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Form/AutocompleteDossier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="26" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajouter.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/dossier/ajouter.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="30" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Views/layout.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.98345155">
+            <state line="60" column="78" selection-start="3686" selection-end="3686" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/default.css">
+      <file leaf-file-name="choisir.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/dossier/choisir.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/index/about.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="7" selection-start="0" selection-end="27" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoload_real.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="34" selection-start="1027" selection-end="1027" vertical-scroll-proportion="-18.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Controller/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="1" selection-start="1193" selection-end="1193" vertical-scroll-proportion="-21.5">
-              <folding>
-                <element signature="n#IndexController#0;n#!!block;n#Controller#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Views/index/index.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="86" vertical-scroll-proportion="0.0">
+            <state line="45" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -262,30 +255,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/web/index.php" />
-        <option value="$PROJECT_DIR$/src/bootstrap.php" />
-        <option value="$PROJECT_DIR$/src/routes.php" />
-        <option value="$PROJECT_DIR$/App/routes.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/App/views/index/index.twig" />
-        <option value="$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php" />
-        <option value="$PROJECT_DIR$/App/views/layout.twig" />
-        <option value="$PROJECT_DIR$/App/config/config.yml" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/App/Views/index/about.twig" />
-        <option value="$PROJECT_DIR$/public/css/default.css" />
+        <option value="$PROJECT_DIR$/App/Views/client/ajouter.twig" />
+        <option value="$PROJECT_DIR$/App/Views/client/modifier.twig" />
+        <option value="$PROJECT_DIR$/App/Views/client/autocomplete.twig" />
+        <option value="$PROJECT_DIR$/App/Models/ClientModels.php" />
+        <option value="$PROJECT_DIR$/App/Controller/ClientController.php" />
         <option value="$PROJECT_DIR$/App/bootstrap.php" />
-        <option value="$PROJECT_DIR$/App/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/App/Form/AutocompleteDossier.php" />
+        <option value="$PROJECT_DIR$/App/Form/Dossier.php" />
+        <option value="$PROJECT_DIR$/App/Form/DossierBis.php" />
+        <option value="$PROJECT_DIR$/App/Views/dossier/remplacer.twig" />
+        <option value="$PROJECT_DIR$/App/Form/Generic/Autocomplete.php" />
+        <option value="$PROJECT_DIR$/App/Views/dossier/ajouter.twig" />
         <option value="$PROJECT_DIR$/App/Views/layout.twig" />
+        <option value="$PROJECT_DIR$/App/Models/DossierModels.php" />
+        <option value="$PROJECT_DIR$/App/Views/dossier/choisir.twig" />
+        <option value="$PROJECT_DIR$/App/Controller/DossierController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1599" />
-    <option name="width" value="1682" />
-    <option name="height" value="1050" />
+    <option name="x" value="-1" />
+    <option name="y" value="27" />
+    <option name="width" value="1602" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -341,180 +335,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twig-bridge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Bridge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Twig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Avosoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -555,7 +375,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="dossier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Avosoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Avosoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Avosoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Avosoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Avosoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Avosoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Avosoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Avosoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -579,25 +479,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Twig" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FuelGesta/fuel/app/views/template.php" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="options.lastSelected" value="http.proxy" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FuelGesta/fuel/app/config/production/db.php" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -618,7 +514,17 @@
     </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/Form" />
+      <recent name="$PROJECT_DIR$/App/Views" />
+      <recent name="$PROJECT_DIR$/App/Form/Generic" />
+      <recent name="$PROJECT_DIR$/App/Views/dossier" />
+      <recent name="$PROJECT_DIR$/App/Models" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App" />
+      <recent name="$PROJECT_DIR$/App/Controller" />
+      <recent name="$PROJECT_DIR$/vendor" />
       <recent name="$PROJECT_DIR$/App/views/index" />
       <recent name="$PROJECT_DIR$/web" />
     </key>
@@ -673,29 +579,38 @@
       <created>1346787684570</created>
       <updated>1346787684570</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Silex de Base">
+      <created>1347625759642</created>
+      <updated>1347625759642</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Silex de Base">
+      <created>1347625853888</created>
+      <updated>1347625853888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1599" y="0" width="1682" height="1050" extended-state="6" />
+    <frame x="-1" y="27" width="1602" height="873" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18543452" sideWeight="0.67128986" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15637065" sideWeight="0.6714922" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -737,7 +652,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intégration de Silex/Twig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Silex de Base" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -753,113 +668,110 @@
     <MESSAGE value="Initialisation du projet" />
     <MESSAGE value="Intégration de Hoa_fw" />
     <MESSAGE value="Intégration de Silex/Twig" />
+    <MESSAGE value="Silex de Base" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/App/Views/client/autocomplete.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="93" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" />
+        <state line="4" column="0" selection-start="50" selection-end="772" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cache/8a/73/b836bb5f4c9ec2e90e2893fb56df.php">
+    <entry file="file://$PROJECT_DIR$/App/Models/IndexModels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Form/Autocomplete.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cache/8f/c6/62e8631fea92c1225f907de9046a.php">
+    <entry file="file://$PROJECT_DIR$/App/Views/dossier/remplacer.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.0" />
+        <state line="57" column="13" selection-start="1487" selection-end="1487" vertical-scroll-proportion="-28.5" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/monolog/monolog/src/Monolog/Logger.php">
+    <entry file="file://$PROJECT_DIR$/App/Form/Generic/Autocomplete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="94" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="26" selection-start="619" selection-end="619" vertical-scroll-proportion="-13.5" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/avosoft.log">
+    <entry file="file://$PROJECT_DIR$/App/Views/autocomplete.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="30" selection-start="18176" selection-end="18176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="47" selection-start="250" selection-end="250" vertical-scroll-proportion="-5.5" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/App/Views/dossier/ajouter.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/index/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="86" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/index/about.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="0" selection-end="27" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="34" selection-start="1027" selection-end="1027" vertical-scroll-proportion="-18.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="1" selection-start="1193" selection-end="1193" vertical-scroll-proportion="-21.5">
-          <folding>
-            <element signature="n#IndexController#0;n#!!block;n#Controller#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../FuelGesta/fuel/app/views/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="26" selection-start="5074" selection-end="5074" vertical-scroll-proportion="1.0945455">
+        <state line="39" column="30" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/layout.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.98345155">
+        <state line="60" column="78" selection-start="3686" selection-end="3686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/ClientController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="92" selection-start="1191" selection-end="1329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Form/Dossier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="41" selection-start="596" selection-end="621" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Form/DossierBis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="1" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/ClientModels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="68" selection-start="2744" selection-end="2800" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/DossierModels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="68" selection-start="1331" selection-end="1331" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Form/AutocompleteDossier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="26" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/dossier/choisir.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/DossierController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="0" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.16820988">
           <folding />
         </state>
       </provider>

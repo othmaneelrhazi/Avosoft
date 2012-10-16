@@ -1,0 +1,85 @@
+{% extends "layout.twig" %}
+
+
+{% block content %}
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            var projects = [
+                {% for clients in client %}
+
+
+                {
+                    value:'{{ clients.idClient }}',
+                    label:'{{ clients.tNom }} {{ clients.tPrenom }}'
+                },
+                {% endfor %}
+            ];
+
+            $('#dossier_autocomplete').autocomplete({
+                minLength:0,
+                source:projects,
+                select:function (event, ui) {
+                    $('#dossier_autocomplete').val(ui.item.label);
+                    $('#dossier_client').val(ui.item.value);
+                    return false;
+                }
+            })
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            var projects = [
+                {% for dossiers in dossier %}
+
+
+                {
+                    value:'{{ dossiers.idDossier }}',
+                    label:'{{ dossiers.tDossier }}'
+                },
+                {% endfor %}
+            ];
+
+            $('#dossier_autocomplete').autocomplete({
+                minLength:0,
+                source:projects,
+                select:function (event, ui) {
+                    $('#dossier_autocomplete').val(ui.item.label);
+                    $('#dossier_idDossier').val(ui.item.value);
+                    return false;
+                }
+            })
+
+        });
+    </script>
+
+
+    <legend>Modifier Dossier</legend>
+
+
+    <div id="coordonee" class="ui-tabs-panel">
+
+        <form action="{{ path("dossier.choisir") }}" method="post">
+
+
+            {{ form_rest(form) }}
+
+            <input class="btn btn-success btn-small" type="submit" name="submit">
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

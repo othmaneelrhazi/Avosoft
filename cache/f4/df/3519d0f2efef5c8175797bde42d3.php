@@ -28,9 +28,7 @@ class __TwigTemplate_f4df3519d0f2efef5c8175797bde42d3 extends Twig_Template
     public function block_content($context, array $blocks = array())
     {
         // line 4
-        echo "<p>
-  Hello World
-</p>
+        echo "
 ";
     }
 

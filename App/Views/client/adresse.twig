@@ -1,0 +1,12 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+    <form action="{{path("client.adresse")}}" method="post">
+        <legend>Adresse de {{ client['tNom'] }}  {{ client['tPrenom'] }} </legend>
+        {{form_widget(form)}}
+
+        <input class="btn btn-success btn-small"  type="submit" name="submit">
+    </form>
+
+{% endblock %}

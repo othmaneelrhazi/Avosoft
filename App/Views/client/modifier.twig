@@ -1,0 +1,15 @@
+{% extends "layout.twig" %}
+
+
+{% block content %}
+
+    </ul>
+
+    <form action="{{path("client.client")}}" method="post">
+        <legend>Modifier Client</legend>
+        {{form_widget(form)}}
+
+        <input class="btn btn-success btn-small"  type="submit" name="submit">
+    </form>
+
+{% endblock %}

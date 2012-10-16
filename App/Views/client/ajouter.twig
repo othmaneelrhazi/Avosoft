@@ -1,0 +1,59 @@
+{% extends "layout.twig" %}
+
+
+{% block content %}
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#onglet").tabs({selected:0});
+        });
+
+
+    </script>
+
+    <div class="ui-widget">
+        <legend>{{ title }}</legend>
+
+        <div id="onglet">
+            <ul class="ui-tabs-nav">
+                <li class="ui-tabs-nav-item"><a href="#coordonee"><span>Coordon&eacute;e</span></a></li>
+                <li class="ui-tabs-nav-item"><a href="#adresse"><span>Adresse</span></a></li>
+            </ul>
+
+            <div id="coordonee" class="ui-tabs-panel">
+
+                <form action="{{ route }}" method="post">
+
+
+                    {{ form_rest(form) }}
+
+                    <input class="btn btn-success btn-small" type="submit" name="submit">
+                </form>
+            </div>
+
+            <div id="adresse" class="ui-tabs-panel">
+                <form action="{{ routeAdresse }}" method="post">
+
+
+                    {{ form_rest(formAdresse) }}
+
+                    <input class="btn btn-success btn-small" type="submit" name="submit">
+                </form>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+{% endblock %}
