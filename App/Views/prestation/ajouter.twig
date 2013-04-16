@@ -1,8 +1,64 @@
 {% extends "layout.twig" %}
 
+
 {% block content %}
+<script>
+    $.datepicker.setDefaults({
+        dateFormat: 'dd-mm-yy',
+        selectOtherMonths: true,
+        changeMonth: true,
+        changeYear: true,
+        dayNamesMin: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
+        firstDay: 1
+    });
+    // Fonction datepicker pour la date de naissance
+    $(function(){
+        $('#livre_tDate').datepicker({
+            yearRange: '-100:+10'
+        }).attr("readonly","readonly");
+    });
+</script>
+
+<script type="text/javascript">
+    $(function () {
+        var projects = [
+            {% for dossiers in dossier %}
 
 
-    Mise en place de la première vue
+            {
+                value: '{{ dossiers.idDossier }}',
+                label: '{{ dossiers.tDossier }}'
+            },
+            {% endfor %}
+        ];
+
+        $('#dossier_autocomplete').autocomplete({
+            minLength:0,
+            source:projects,
+            select:function (event, ui) {
+                $('#dossier_autocomplete').val(ui.item.label);
+                $('#dossier_dossier').val(ui.item.value);
+                return false;
+            }
+        })
+
+    });
+</script>
+
+<legend>{{ legend }}</legend>
+
+
+<div id="coordonee" class="ui-tabs-panel">
+
+    <form action="{{ route }}" method="post">
+
+
+        {{ form_rest(form) }}
+
+
+
+        <input class="btn btn-success btn-small" type="submit" name="submit">
+    </form>
+</div>
 
 {% endblock %}

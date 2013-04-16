@@ -1,0 +1,51 @@
+{% extends "layout.twig" %}
+
+
+{% block content %}
+    <script>
+        $.datepicker.setDefaults({
+            dateFormat: 'dd-mm-yy',
+            selectOtherMonths: true,
+            changeMonth: true,
+            changeYear: true,
+            dayNamesMin: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
+            firstDay: 1
+        });
+        // Fonction datepicker pour la date de naissance
+        $(function(){
+            $('#livre_dDate').datepicker({
+                yearRange: '-100:+10'
+            }).attr("readonly","readonly");
+        });
+
+
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            $('#example').dataTable( {
+                "aaSorting": [[ 4, "desc" ]]
+            } );
+        } );
+    </script>
+
+
+    <h5>{{ nomDossier }}</h5>
+    <h5>{{ nomClient }}</h5>
+
+
+    <div id="coordonee" class="ui-tabs-panel">
+
+        <form action="{{ path('prestation.modifier', {id: id,route: route} ) }}" method="post">
+
+
+            {{ form_rest(form) }}
+
+            <input class="btn btn-success btn-small" type="submit" name="submit">
+        </form>
+    </div>
+
+
+
+
+{% endblock %}

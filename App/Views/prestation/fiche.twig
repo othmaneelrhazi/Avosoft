@@ -1,0 +1,96 @@
+{% extends "layout.twig" %}
+
+
+{% block content %}
+<script>
+    $.datepicker.setDefaults({
+        dateFormat: 'dd-mm-yy',
+        selectOtherMonths: true,
+        changeMonth: true,
+        changeYear: true,
+        dayNamesMin: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
+        firstDay: 1
+    });
+    // Fonction datepicker pour la date de naissance
+    $(function(){
+        $('#livre_dDate').datepicker({
+            yearRange: '-100:+10'
+        }).attr("readonly","readonly");
+    });
+
+
+</script>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+            $('#example').dataTable( {
+                "aaSorting": [[ 4, "desc" ]]
+            } );
+        } );
+    </script>
+
+
+<h5>{{ nomDossier }}</h5>
+<h5>{{ nomClient }}</h5>
+
+
+<div id="coordonee" class="ui-tabs-panel">
+
+    <form action="{{ route }}" method="post">
+
+
+        {{ form_rest(form) }}
+
+        <input class="btn btn-success btn-small" type="submit" name="submit">
+    </form>
+</div>
+
+
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Honoraire</th>
+        <th>In</th>
+        <th>Out</th>
+        <th>Tiers In</th>
+        <th>Tiers Out</th>
+        <th>Huissier</th>
+        <th>Confrère</th>
+        <th>Frais</th>
+        <th>Commentaire</th>
+        <th>modifier</th>
+        <th>Supprimer</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for value in prestation %}
+        <tr class="gradeA" style="text-align: center">
+            <td>{{ value.dateFormat }}</td>
+            <td>{{ value.iHonnoraire }}</td>
+            <td>{{ value.iProvisionIn }}</td>
+            <td>{{ value.iProvisionOut }}</td>
+            <td>{{ value.iTiersIn }}</td>
+            <td>{{ value.iTiersOut }}</td>
+            <td>{{ value.tHuissiers }}</td>
+            <td>{{ value.tConfrere }}</td>
+            <td>{{ value.iFrais }}</td>
+            <td>{{ value.tCommentaire }}</td>
+            <td><a href="{{ path('prestation.modifier', {id: value.idLivre,route: route} ) }}" class="btn btn-mini btn-warning"><i class="icon-edit icon-white"></i></a></td>
+            <td><a href="{{ path('prestation.delete', {id: value.idLivre,route: route} ) }}" class="btn btn-mini btn-danger"><i class="icon-remove icon-white"></i></a></td>
+        </tr>
+    {% endfor %}
+
+
+    </tbody>
+        <tfoot>
+        <tr>
+            <th></th>
+        </tr>
+
+        </tfoot>
+
+    </table>
+
+
+{% endblock %}

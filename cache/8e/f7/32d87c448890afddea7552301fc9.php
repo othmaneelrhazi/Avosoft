@@ -37,7 +37,7 @@ class __TwigTemplate_8ef732d87c448890afddea7552301fc9 extends Twig_Template
                 ";
         // line 11
         $context['_parent'] = (array) $context;
-        $context['_seq'] = twig_ensure_traversable($this->getContext($context, "client"));
+        $context['_seq'] = twig_ensure_traversable((isset($context["client"]) ? $context["client"] : $this->getContext($context, "client")));
         foreach ($context['_seq'] as $context["_key"] => $context["clients"]) {
             // line 12
             echo "
@@ -45,13 +45,13 @@ class __TwigTemplate_8ef732d87c448890afddea7552301fc9 extends Twig_Template
                 {
                     value:'";
             // line 15
-            echo twig_escape_filter($this->env, $this->getAttribute($this->getContext($context, "clients"), "idClient"), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["clients"]) ? $context["clients"] : $this->getContext($context, "clients")), "idClient"), "html", null, true);
             echo "',
                     label:'";
             // line 16
-            echo twig_escape_filter($this->env, $this->getAttribute($this->getContext($context, "clients"), "tNom"), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["clients"]) ? $context["clients"] : $this->getContext($context, "clients")), "tNom"), "html", null, true);
             echo " ";
-            echo twig_escape_filter($this->env, $this->getAttribute($this->getContext($context, "clients"), "tPrenom"), "html", null, true);
+            echo twig_escape_filter($this->env, $this->getAttribute((isset($context["clients"]) ? $context["clients"] : $this->getContext($context, "clients")), "tPrenom"), "html", null, true);
             echo "'
                 },
                 ";
@@ -78,7 +78,7 @@ class __TwigTemplate_8ef732d87c448890afddea7552301fc9 extends Twig_Template
 
     <legend>";
         // line 35
-        echo twig_escape_filter($this->env, $this->getContext($context, "legend"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["legend"]) ? $context["legend"] : $this->getContext($context, "legend")), "html", null, true);
         echo "</legend>
 
 
@@ -86,13 +86,13 @@ class __TwigTemplate_8ef732d87c448890afddea7552301fc9 extends Twig_Template
 
         <form action=\"";
         // line 40
-        echo twig_escape_filter($this->env, $this->getContext($context, "route"), "html", null, true);
+        echo twig_escape_filter($this->env, (isset($context["route"]) ? $context["route"] : $this->getContext($context, "route")), "html", null, true);
         echo "\" method=\"post\">
 
 
             ";
         // line 43
-        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getContext($context, "form"), 'rest');
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'rest');
         echo "
 
             <input class=\"btn btn-success btn-small\" type=\"submit\" name=\"submit\">
@@ -124,6 +124,6 @@ class __TwigTemplate_8ef732d87c448890afddea7552301fc9 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  93 => 43,  87 => 40,  79 => 35,  61 => 19,  50 => 16,  46 => 15,  41 => 12,  37 => 11,  29 => 5,  26 => 4,);
+        return array (  95 => 43,  89 => 40,  81 => 35,  63 => 19,  52 => 16,  48 => 15,  43 => 12,  39 => 11,  31 => 5,  28 => 4,);
     }
 }

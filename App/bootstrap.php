@@ -15,6 +15,8 @@ $loader->add("App", ROOT);
 
 $app = new Silex\Application();
 
+$app->register(new Silex\Provider\ServiceControllerServiceProvider());
+
 
 /* twig */
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
@@ -84,11 +86,15 @@ $app->register(new Maitrepylos\Provider\DebugServiceProvider());
 
 $app['debug'] = true;
 
+//$app->register($p = new Silex\Provider\WebProfilerServiceProvider(), array(
+//    'profiler.cache_dir' => __DIR__.'/../cache/profiler',
+//));
 
 $app->mount("/", new App\Controller\IndexController());
 $app->mount("/prestation", new App\Controller\PrestationController());
 $app->mount("/client", new App\Controller\ClientController());
 $app->mount("/dossier", new App\Controller\DossierController());
+//$app->mount('/_profiler', $p);
 
 
 

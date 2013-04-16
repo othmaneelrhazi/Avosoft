@@ -38,7 +38,7 @@ class __TwigTemplate_3faf353a6774f5a618241d0a7470ecc7 extends Twig_Template
         <legend>Modifier Client</legend>
         ";
         // line 10
-        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock($this->getContext($context, "form"), 'widget');
+        echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'widget');
         echo "
 
         <input class=\"btn btn-success btn-small\"  type=\"submit\" name=\"submit\">
@@ -59,6 +59,6 @@ class __TwigTemplate_3faf353a6774f5a618241d0a7470ecc7 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  39 => 10,  34 => 8,  29 => 5,  26 => 4,);
+        return array (  41 => 10,  36 => 8,  31 => 5,  28 => 4,);
     }
 }
